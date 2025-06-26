@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { BookOpenText, Brain, CodeXml, LogOut } from "lucide-react"; // optional icons
 
+
 const categories = [
   { id: 1, name: "HTML", color: "bg-gradient-to-r from-pink-200 to-pink-100", icon: <CodeXml /> },
   { id: 2, name: "JAVASCRIPT", color: "bg-gradient-to-r from-yellow-200 to-yellow-100", icon: <Brain /> },
