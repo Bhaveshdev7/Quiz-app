@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Quiz from "./pages/Quiz";
-import Result from "./pages/Result";
+import Login from "./pages/Login.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Quiz from "./pages/Quiz.jsx";
+import Result from "./pages/Result.jsx";
 
 function App() {
   return (
